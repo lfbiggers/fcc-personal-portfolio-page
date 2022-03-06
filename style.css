@@ -1,0 +1,126 @@
+body {
+  background-color: #c9af98;
+  margin-top: 50px;
+}
+img {
+  width: 100%;
+}
+a:link, a:visited {
+  background-color: #ed8a63;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #845007;
+}
+#navbar {
+  background: #3a4660;
+  color: #ed8a63;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+header {
+  background: #3a4660;
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  display: flex;
+  margin: auto;
+}
+#welcome-section {
+  display: flex;
+  margin: auto;
+  padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
+}
+.intro {
+  color: white;
+  text-align: center;
+}
+.work {
+  height: 300px;
+  padding: 2% 0;
+}
+.work h3 {
+  padding: 4% 0;
+}
+.text-box {
+  float: left;
+  text-align: left;
+  width: 480px;
+  background-color: #c9af98;
+  height: 100%;
+}
+.button {
+  padding: 5% 3%;
+  border: 3px solid #e0ccc8;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  color: #e0ccc8;
+  text-align: center;
+  display: block;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 4%;
+}
+.button:hover {
+  color: #fff;
+  background-color: #e0ccc8;
+}
+.image-area {
+  width: 480px;
+  height: 300px;
+  overflow: hidden;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.contact {
+  width: 100%;
+  background-color: white;
+  padding: 5% 0;
+  margin-top: 5%;
+  clear: both;
+}
+.c-content {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+footer {
+  background-color: #3a4660;
+  padding: 2% 0;
+  width: 100%;
+  clear: both;
+  height: 100px;
+}
+.footer-content {
+  max-width: 960px;
+  padding: 2% 0;
+  margin: 0 auto;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #ed8a63;
+  letter-spacing: .03em;
+  font-size: 1em;
+}
+.credit {
+  float: left;
+}
+@media only screen and (max-width: 600px) {
+  navbar {
+    text-align: center;
+  }
+}
